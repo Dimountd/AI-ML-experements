@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project Data & Cache
+qdrant_data/
+qdrant_data_benchmark_v2/
+benchmark_results/
+models/
+
+# Large/Generated Files
+*.csv
+*.jsonl
+benchmark_backup.ipynb
