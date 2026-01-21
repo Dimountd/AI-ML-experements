@@ -17,10 +17,12 @@ ENV/
 # Project Data & Cache
 qdrant_data/
 qdrant_data_benchmark_v2/
-benchmark_results/
-models/
 
 # Large/Generated Files
-*.csv
 *.jsonl
 benchmark_backup.ipynb
+
+# Dynamic Storage
+qdrant_storage*/
+wandb/
+models/
